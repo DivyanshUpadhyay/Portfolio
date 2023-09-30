@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Resources/style.css"/>
+        <script src="https://kit.fontawesome.com/3482e19110.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="Resources/PP (2).png"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Project || Divyansh Upadhyay</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg " data-aos="fade-right" data-aos-duration="2000">
+            <div class="container-fluid" >
+              <a class="navbar-brand py-1 px-2 rounded-2" href="index.html" >Divyansh Upadhyay</a>
+              <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarText">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link text-black" aria-current="page" id="navbarTextA" href="index.html"> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="" id="navbarTextA">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a  class="nav-link text-black" id="navbarTextA" href="Resume.html">Resume</a>
+                  </li>
+                  <li>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ContactModal">Get In Touch</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div>
+            <h1 class="mx-5 my-5 fw-bold" data-aos="fade-up" data-aos-duration="2000">Projects</h1>
+            <div class="container"  data-aos="zoom-in" data-aos-duration="2000">
+              <h3 class="text-center py-3 m-0 bg-dark text-white">Projects</h3>
+              <div class="row  align-items-center fw-bold">
+                <div class="col-sm-4 py-3 text-end border-end border-2 border-black text-danger ">
+                 <a href="ttps://videocraftstudios.000webhostapp.com/"> <img id="img1" src="Resources/Project1.png" class="img-thumbnail" alt="" height="180px"></a>
+                </div>
+                <div class="col-sm-8">
+                  <p>
+                    <h1 class="text-danger">VideoCraft Studios Website.</h1>
+                    <br/>
+                    A Website for the freelancer who edit video for its client and want to showcase it work and tell about its
+services . This website uses technologies like html, css , js , bootstrap.
+<br/>
+                    link : <a class="text-decoration-none text-danger" href="https://videocraftstudios.000webhostapp.com/">https://videocraftstudios.000webhostapp.com/</a>
+                  </p>
+                </div>
+              </div>
+              <div class="row m-0 py-5 align-items-center">
+                <div class="col-sm-8 text-end fw-bold">
+                  <p>
+                    <h1 class="text-danger">Edit Ease React App.</h1>
+                    <br/>
+                    A react app to Edit text and have feature like capitalize the text , covert to lowercase , Remove Extra
+Space , Copy to clipboard and have dark mode and light mode option.
+<br/>
+                    link : <a class="text-decoration-none text-danger" href="https://ease-edit.netlify.app/">https://ease-edit.netlify.app/</a>
+                  </p>
+                </div>
+                <div class="col-sm-4 py-2 border-start border-2 border-black text-danger">
+                 <a href="https://ease-edit.netlify.app/"><img id="img1" src="Resources/Project2.png" class="img-thumbnail" alt="" height="180px"></a>
+                </div>
+              </div>
+          </div>
+          <footer class="bg-dark container-fluid p-5 text-center text-white">
+            <p>&copy; Rights Reserved.</p>
+            <a target="_blank" href="https://www.linkedin.com/in/divyansh-upadhyay-4713b4214/" class="text-white mx-2"><i class="fa-brands fa-linkedin fa-beat fa-2x"></i></a>
+            <a target="_blank" href="https://www.instagram.com/divyansh_upadhyay03" class="text-white mx-2"><i class="fa-brands fa-instagram fa-beat fa-2x"></i></a>
+            <a target="_blank" href="mailto:divyanshupadhyay2003@gmail.com" class="text-white mx-2"><i class="fa-solid fa-envelope fa-beat fa-2x" style="color: #f7f7f7;"></i></i></a>
+          </footer>
+    </body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <div class="modal fade" id="ContactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success text-white">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Get In Touch!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form name="google-sheet">
+              <div class="mb-3">
+                <label for="Name" class="form-label">Your Name</label>
+                <input type="text" name="Name" pattern="[a-zA-Z ]+" maxlength="20" required placeholder="Enter your name" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="Phone" class="form-label">Your Phone</label>
+                <input type="tel" name="Phone" class="form-control" pattern="[0-9]+" maxlength="10" minlength="10" required placeholder="Enter your phone">
+                <div class="form-text">We'll never share your phone with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Your Email</label>
+                <input type="email" name="Email" class="form-control" required placeholder="Enter your Email">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Resources/custom.js"></script>
+</html>

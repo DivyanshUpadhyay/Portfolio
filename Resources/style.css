@@ -1,0 +1,112 @@
+.navbar-brand{
+    color: rgb(255, 123, 0); 
+    font-weight:900;
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+    color: rgb(0, 81, 255);
+}
+#navbarTextA:hover
+{
+    text-underline-position: below;
+    text-decoration: underline solid rgb(255, 115, 0) 3px;
+    transition: 0.5s;
+}
+#index>div
+{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#photo>img
+{
+    
+    border-radius: 50%;
+}
+#index-heading
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 245, 0);
+}
+#container>div
+{
+                padding: 10px 20px;
+                margin: 5px;
+               height: 150px;
+               width: 150px;
+                display: inline-block;
+                border: black solid 2px;
+                border-radius: 50%;
+}
+#container {
+    font-size: 20px;
+    text-align: center; /* Center align the boxes */
+}
+#color1
+{
+    background-color: rgb(248, 185, 10);
+}
+#color2
+{
+    background-color: red;
+}
+#color3
+{
+    background-color: royalblue;
+}
+#color1:hover
+{
+    transition: 1s;
+    background-color:rgba(248, 185, 10, 0.685);
+}
+#color2:hover
+{
+    transition: 1s;
+    background-color: rgba(255, 0, 0, 0.548);
+}
+#color3:hover
+{
+    transition: 1s;
+    background-color: rgba(65, 105, 225, 0.603);
+}
+.box {
+    display: inline-block; /* Display boxes in one line */
+    width: 150px; /* Set a fixed width for each box */
+    margin: 10px; /* Add some spacing between boxes */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+.box a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(7, 7, 7); /* Set link text color */
+    font-weight: bold;
+    display: block;
+    margin-top: 35px;
+    position: relative;
+    padding: 10px;
+}
+header{
+    margin-bottom: 100px;
+}
+.progress
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:medium;
+    font-weight: 900;
+    width: 600px;
+}
+div p
+{
+    font-weight: bold;
+}
+#img1:hover
+{
+    transition: 0.8s;
+    transform: scale(0.9);
+}
